@@ -14,17 +14,17 @@ export const AddBooks = () => {
   const handleUserRegister = (evt) => {
     evt.preventDefault();
     const formData = new FormData();
-    const [title, page, year, price, genre_id, country, author_id,description , image] = evt.target.elements;
+    const [title, page, year, price, genre_id, author_id,description , image] = evt.target.elements;
 
     formData.append('title', title.value);
     formData.append('page', page.value);
     formData.append('year', year.value);
     formData.append('price', price.value);
     formData.append('genre_id', genre_id.value);
-    formData.append('country', country.value);
     formData.append('author_id', author_id.value);
     formData.append('description', description.value);
     formData.append('image', image.files[0]);
+
 
 
     axios.post('https://book-service-layer.herokuapp.com/book', formData,{
