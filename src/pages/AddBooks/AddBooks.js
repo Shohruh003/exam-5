@@ -14,7 +14,7 @@ export const AddBooks = () => {
   const handleUserRegister = (evt) => {
     evt.preventDefault();
     const formData = new FormData();
-    const [title, page, year, price, genre_id, country, author_id, bio, image] = evt.target.elements;
+    const [title, page, year, price, genre_id, country, author_id,description , image] = evt.target.elements;
 
     formData.append('title', title.value);
     formData.append('page', page.value);
@@ -23,7 +23,7 @@ export const AddBooks = () => {
     formData.append('genre_id', genre_id.value);
     formData.append('country', country.value);
     formData.append('author_id', author_id.value);
-    formData.append('bio', bio.value);
+    formData.append('description', description.value);
     formData.append('image', image.files[0]);
 
 

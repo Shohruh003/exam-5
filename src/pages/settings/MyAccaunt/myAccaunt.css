@@ -92,12 +92,13 @@
   font-style: normal;
   padding: 12px 23px;
   margin-left: auto;
+  margin-bottom: 19px;
   font-weight: 600;
   font-size: 13px;
   line-height: 20px;
   text-align: right;
   color: #FFFFFF;
-  background-color: #152540;
+  background-color: #43587b;
   border-radius: 4px;
   cursor: pointer;
 }
