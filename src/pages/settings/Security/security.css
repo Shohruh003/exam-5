@@ -1,0 +1,112 @@
+.security-form{
+  display: flex;
+}
+
+.security-img {
+  display: block;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+.security-imgLabel {
+  padding: 43px 103px 0 92px;
+}
+
+.security-content {
+  display: block;
+  margin: 0 auto;
+  width: 850px;
+  padding-top: 86px;
+}
+
+.security-heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.security-label {
+  font-family: 'Poppins';
+  display: block;
+  font-style: normal;
+  margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.security-input {
+  font-family: 'Poppins';
+  display: block;
+  font-style: normal;
+  width: 100%;
+  padding: 12px 0 12px 20px;
+  margin-top: 7px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #F3F6F9;
+  border-radius: 4px;
+  border: none;
+}
+
+.security-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  margin: 0;
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B5B5C3;
+  opacity: 0.8;
+}
+
+.security-phone{
+  display: block;
+  width: 400px;
+}
+
+.security-email{
+  display: block;
+  width: 400px;
+}
+
+.security-phoneDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.security-hr {
+  margin: 44px 0;
+  background-color: #ECF0F3;
+}
+
+.security-button{
+  font-family: 'Poppins';
+  display: block;
+  font-style: normal;
+  padding: 12px 23px;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: right;
+  color: #FFFFFF;
+  background-color: #152540;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.security-button:hover {
+  background-color: #314464;
+}
+
+.security-button:active {
+  background-color: #506384;
+}

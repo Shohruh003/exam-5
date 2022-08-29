@@ -1,0 +1,42 @@
+.setAccaunt {
+  padding-top: 10px;
+  background-color: #fff;
+}
+
+.setAccaunt-list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.setAccaunt-link {
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 23px 90px 23px 23px;
+  margin-right: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #152540;
+  background-color: #F3F6F9;
+  border-radius: 4px 4px 0px 0px;
+  text-decoration: none;
+}
+
+.setAccaunt-link > span {
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 5px 15px;
+  margin-right: 9px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3699FF;
+  background-color: #E5EAEE;
+  border-radius: 4px;
+}
+
+.setAccaunt-active {
+  background-color: #fff;
+}
